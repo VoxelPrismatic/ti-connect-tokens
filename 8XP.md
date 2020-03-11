@@ -6,7 +6,8 @@ Yes, I do try to export invalid tokens to make sure they are completely invalid.
 **Notice:** Do not write `0001` for `▶DMS` all the time, TI-Connect checks if the `01` token is valid *first*, and if it 
 is valid, writes `▶DMS`. For example: Writing `0102` in the hex editor will put `▶DMS▶Dec` in the TI Editor. Aditionally, 
 you will see a couple bytes at `0x00000046` and `0x00000048`, the former is the total byte count and the latter is the program
-token count. The difference between the two will end up being the checksum, but I don't know how to calculate that yet.
+token count. The difference between the two will end up at the end of the file and is the the checksum, but I don't know 
+how to calculate that yet.
 
 **Notice:** Several tokens will change their name if you change the language. Please choose `English` as your language on
 when available if you want to verify this table.
