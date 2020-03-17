@@ -57,3 +57,5 @@ And that is how the checksum works.
 1. Control characters do NOT add to the checksum
 
 2. Byte `$CE` decrements the checksum by `$30`
+
+3. Byte `$EF` is usually followed by `$9F` and does funky stuff that I haven't figured out yet
