@@ -56,4 +56,4 @@ And that is how the checksum works.
 # #] Notes about checksum calculation
 1. Control characters do NOT add to the checksum
 
-2. Byte `$CE` increments the checksum by `$30`
+2. Byte `$CE` decrements the checksum by `$30`
