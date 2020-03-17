@@ -52,3 +52,8 @@ the final sum is `5d`. But we need to store that `02` somewhere as well, so TI-C
 is `5d 02`, when we calculate everything past address `0035`.
 
 And that is how the checksum works.
+
+# #] Notes about checksum calculation
+1. Control characters do NOT add to the checksum
+
+2. Byte `$CE` increments the checksum by `$30`
