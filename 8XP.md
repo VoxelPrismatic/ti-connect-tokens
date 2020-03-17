@@ -13,12 +13,10 @@ when available if you want to verify this table.
 3. Some of these tokens may change from calculator to calculator. For example, `Output(` on Z80 based calcs [eg TI82-4] is 
 `Output ` on 68k based calcs [eg TI89-92].
 
-4. Control characters do NOT add to the checksum.
-
-5. Control characters when exported alone can allow you to view RAM, but back up your calc before viewing it, you may have to
+4. Control characters when exported alone can allow you to view RAM, but back up your calc before viewing it, you may have to
 reset it.
 
-6. Different languages have different visuals, for example the `Å å Ø ø` tokens are only accessable in the svenska language,
+5. Different languages have different visuals, for example the `Å å Ø ø` tokens are only accessable in the svenska language,
 but they map to `Â â Ô ô` respectively. Very annoying, I know.
 
 ### #] Keys
