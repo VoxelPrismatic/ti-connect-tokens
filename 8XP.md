@@ -24,8 +24,9 @@ reset it.
 | <+>    | Token prevents TI-Connect from opening the file, but it can be exported |
 | </>    | Token cannot be exported |
 | <!>    | Control character |
+| <?>    | Token breaks something [eg views RAM or breaks checksum] |
 
-^those will be in red blocks, not blue
+^those will be in non-blue blocks
 
 # #] Token index
 Due to GitHub file size limits, I cannot post the table here. View it in [Google Sheets](https://docs.google.com/spreadsheets/d/1Q5f8AEPr1HTZEIx-dcEX2N4_G2LipvcRg33c17OfHgk/edit?usp=sharing) instead.
