@@ -18,6 +18,9 @@ when available if you want to verify this table.
 5. Control characters when exported alone can allow you to view RAM, but back up your calc before viewing it, you may have to
 reset it.
 
+6. Different languages have different visuals, for example the `Å å Ø ø` tokens are only accessable in the svenska language,
+but they map to `Â â Ô ô` respectively. Very annoying, I know.
+
 ### #] Keys
 | Symbol | Meaning | Color |
 | ------:|:------- | -----:|
